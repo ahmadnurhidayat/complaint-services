@@ -2,6 +2,6 @@
   <footer id="footer">
     <div class="container">
         <div class="text-center">
-            © 2022 | By <strong>Siswa Rpl SMKN 2 TRENGGALEK</strong>
+            © 2023 | Copyright <strong>BMKG Lampung</strong>
         </div>
   </footer><!-- End Footer -->

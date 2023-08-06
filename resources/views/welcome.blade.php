@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>APLIKASi | Laporan Siswa</title>
+  <title>BMKG Lampung</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo.svg" rel="icon">
+  <link href="assets/img/logo-bmkg.svg" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -26,11 +26,11 @@
     * Author: BootstrapMade.com
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
-  </head>
+</head>
 
-  <body>
+<body>
 
-    @include('includes.landing.navbar')
+  @include('includes.landing.navbar')
 
 
   <!-- ======= Hero Section ======= -->
@@ -39,16 +39,16 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Layanan Laporan Siswa Berbasis Online</h1>
+          <h1 data-aos="fade-up">Layanan Pengaduan Masyarakat</h1>
           <h2 data-aos="fade-up" data-aos-delay="400">Sampaikan laporan masalah Anda di sini, kami akan memprosesnya dengan cepat , aman dan nyaman.</h2>
           <div data-aos="fade-up" data-aos-delay="800">
             <a href="{{ url('login')}}" class="btn-get-started scrollto">Laporkan!</a>
-           
+
             <a href="#services" class="btn-get-started-2 scrollto">Alur laporan</a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          <img src="assets/img/hero.svg" class="img-fluid animated" alt="">
+          <img src="assets/img/hero.svg" class="img-fluid" alt="Hero">
         </div>
       </div>
     </div>
@@ -69,17 +69,19 @@
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
             <p>
-              <h3>APLIKASIKU</h3> adalah sistem laporan pengaduan Siswa yang dibuat untuk memudahkan Siswa untuk memberikan laporan atau informasi kepada pihak petugas sekolah
+            <h3>BMKG Lampung</h3> adalah sistem laporan pengaduan Masyarakat yang dibuat untuk memudahkan Masyarakat untuk memberikan laporan atau informasi kepada pihak BMKG Lampung
             </p>
             <ul>
-              <h3>Tujuan APLIKASIKU</h3>
-              <li><i class="ri-check-double-line"></i>Memberikan Informasi atau laporan yang jelas kepada pihak sekolah supaya bisa ditindak lebih lanjut</li>
-              <li><i class="ri-check-double-line"></i>Mempermudah siswa untuk berkomunikasi dengan pihak sekolah</li>
+              <h3>Tujuan</h3>
+              <li><i class="ri-check-double-line"></i>Memberikan Informasi atau laporan yang jelas kepada pemerintah supaya bisa ditindak lebih lanjut</li>
+              <li><i class="ri-check-double-line"></i>Mempermudah masyarakat untuk berkomunikasi dengan pemerintah</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            
+            {{-- <h4>BMKG Lampung</h4> --}}
             <p>
-              <h4>APLIKASIKU</h4>merupakan komitmen  kami untuk melayani siswa. Dengan hadirnya sistem pelaporan pengaduan online ini, diharapkan setiap suara siswa bisa didengar dan ditindaklanjuti oleh pihak sekolah.
+            BMKG mempunyai tugas melaksanakan tugas pemerintahan di bidang Meteorologi, Klimatologi, Kualitas Udara dan Geofisika sesuai dengan ketentuan perundang-undangan yang berlaku.
             </p>
             <a href="#services" class="btn-learn-more">Tata cara atau alur pengaduan</a>
           </div>
@@ -104,7 +106,7 @@
                   <div class="count-box">
                     <i class="bi bi-emoji-smile"></i>
                     <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Pengguna</strong><br>DAFTAR pengguna APLIKASIKU</p>
+                    <p><strong>Pengguna</strong><br>Daftar Pengguna</p>
                   </div>
                 </div>
 
@@ -139,7 +141,7 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>TATA CARA</h2>
-          <p>Nah ini dia alur pelaporan yang ada website APLIKASIKU</p>
+          <p>Alur pelaporan aduan</p>
         </div>
 
         <div class="row">
@@ -189,9 +191,9 @@
 
 
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  @include('includes.landing.javascript')
+    @include('includes.landing.javascript')
 
 </body>
 

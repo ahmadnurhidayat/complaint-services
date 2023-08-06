@@ -3,7 +3,7 @@
         
         <x-slot name="logo">
             <a href="/">
-                <img class="w-20 h-20" src="{{ asset('img/logo.svg')}} " alt="Logo">
+                <img class="w-20 h-20" src="assets/img/logo.png" alt="Logo">
             </a>
         </x-slot>
 
@@ -45,7 +45,7 @@
             <div class="flex items-center justify-end mt-4">
                 @if (Route::has('password.request'))
                     <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
-                        {{ __('lupa kata sandi Anda?') }}
+                        {{ __('Lupa kata sandi Anda?') }}
                     </a>
                 @endif
 

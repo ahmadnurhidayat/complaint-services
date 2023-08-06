@@ -2,7 +2,7 @@
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
-                <img class="w-20 h-20 " src="{{ asset('img/logo.svg')}} " alt="Logo">
+                <img class="w-20 h-20 " src="assets/img/logo.png " alt="Logo">
             </a>
         </x-slot>
 
@@ -53,7 +53,7 @@
             <!-- Confirm Password -->
             <div class="mt-4">
                 <x-label for="password_confirmation" :value="__('
-                konfirmasi sandi')" />
+                Konfirmasi sandi')" />
 
                 <x-input id="password_confirmation" class="block mt-1 w-full"
                                 type="password"

@@ -58,13 +58,13 @@ Data Petugas
           <span class="text-gray-700 dark:text-gray-400">Password</span>
           <input
             class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-textarea focus:border-red-400 focus:outline-none focus:shadow-outline-red dark:focus:shadow-outline-gray"
-            type="password" placeholder="password" value="{{ old('password')}}" name="password"></input>
+            type="password" placeholder="Password" value="{{ old('password')}}" name="password"></input>
         </label>
         <label class="block mt-4 text-sm">
           <span class="text-gray-700 dark:text-gray-400">Konfirmasi Password</span>
           <input
             class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-textarea focus:border-red-400 focus:outline-none focus:shadow-outline-red dark:focus:shadow-outline-gray"
-            type="password" placeholder="password" value="{{ old('password')}}" name="password_confirmation"></input>
+            type="password" placeholder="Password" value="{{ old('password')}}" name="password_confirmation"></input>
         </label>
 
 
