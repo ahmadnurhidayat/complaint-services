@@ -109,8 +109,8 @@ Data Pengaduan
             </tr>
             @empty
             <tr>
-              <td colspan="7" class="text-center text-gray-400">
-                Data Kosong
+              <td colspan="7" class="px-4 py-3 text-center text-gray-400">
+                Empty Data
               </td>
             </tr>
             @endforelse

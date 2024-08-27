@@ -26,11 +26,11 @@
     * Author: BootstrapMade.com
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
-  </head>
+</head>
 
-  <body>
+<body>
 
-    @include('includes.landing.navbar')
+  @include('includes.landing.navbar')
 
 
   <!-- ======= Hero Section ======= -->
@@ -43,7 +43,7 @@
           <h2 data-aos="fade-up" data-aos-delay="400">Sampaikan laporan masalah Anda di sini, kami akan memprosesnya dengan cepat , aman dan nyaman.</h2>
           <div data-aos="fade-up" data-aos-delay="800">
             <a href="{{ url('login')}}" class="btn-get-started scrollto">Laporkan!</a>
-           
+
             <a href="#services" class="btn-get-started-2 scrollto">Alur laporan</a>
           </div>
         </div>
@@ -69,7 +69,7 @@
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
             <p>
-              <h3>APLIKASIKU</h3> adalah sistem laporan pengaduan Siswa yang dibuat untuk memudahkan Siswa untuk memberikan laporan atau informasi kepada pihak petugas sekolah
+            <h3>APLIKASIKU</h3> adalah sistem laporan pengaduan Siswa yang dibuat untuk memudahkan Siswa untuk memberikan laporan atau informasi kepada pihak petugas sekolah
             </p>
             <ul>
               <h3>Tujuan APLIKASIKU</h3>
@@ -79,7 +79,7 @@
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <p>
-              <h4>APLIKASIKU</h4>merupakan komitmen  kami untuk melayani siswa. Dengan hadirnya sistem pelaporan pengaduan online ini, diharapkan setiap suara siswa bisa didengar dan ditindaklanjuti oleh pihak sekolah.
+            <h4>APLIKASIKU</h4>merupakan komitmen kami untuk melayani siswa. Dengan hadirnya sistem pelaporan pengaduan online ini, diharapkan setiap suara siswa bisa didengar dan ditindaklanjuti oleh pihak sekolah.
             </p>
             <a href="#services" class="btn-learn-more">Tata cara atau alur pengaduan</a>
           </div>
@@ -189,9 +189,9 @@
 
 
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  @include('includes.landing.javascript')
+    @include('includes.landing.javascript')
 
 </body>
 

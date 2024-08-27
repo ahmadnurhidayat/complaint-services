@@ -54,7 +54,7 @@ Laporan
               <td class="px-4 py-3 text-sm">
                 {{ $item->created_at->format('l, d F Y') }}
               </td>
-              
+
               @if($item->status =='Belum di Proses')
               <td class="px-4 py-3 text-xs">
                 <span
@@ -80,8 +80,8 @@ Laporan
             </tr>
             @empty
             <tr>
-              <td colspan="7" class="text-center text-gray-400">
-                Data Kosong
+              <td colspan="7" class="px-4 py-3 text-center text-gray-400">
+                Empty Data
               </td>
             </tr>
             @endforelse
