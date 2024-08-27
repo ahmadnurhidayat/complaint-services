@@ -28,11 +28,11 @@ yarn --version
 ### 2. Clone Repository Project App
 - Clone with `ssh`
     ```sh
-    git@github.com:luthfyhakim/pengaduan-masyarakat.git
+    git@github.com/ahmadnurhidayat/complaint-services.git
     ```
 - Clone with `https`
     ```sh
-    https://github.com/luthfyhakim/pengaduan-masyarakat.git
+    https://github.com/ahmadnurhidayat/complaint-services.git
     ```
 
 switch to the repo folder
@@ -52,7 +52,7 @@ Pada file .env.example rename menjadi .env kemudian jalankan perintah:
 php artisan key:generate
 ```
 ### 5. Create Database and Migrations
-- Create database (sql) nama : pengaduan_masyarakat
+- Create database (sql) nama : complaint_services
 - Kemudian migrate model table :
 ```sh
 php artisan migrate

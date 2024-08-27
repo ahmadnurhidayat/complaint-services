@@ -17,14 +17,16 @@ Route::prefix('admin')
         Route::resource('tanggapan', 'TanggapanController');
 
         Route::get('masyarakat', 'AdminController@masyarakat');
+
         Route::resource('petugas', 'PetugasController');
 
         Route::get('laporan', 'AdminController@laporan');
+
         Route::get('laporan/cetak', 'AdminController@cetak');
+
         Route::get('pengaduan/cetak/{id}', 'AdminController@pdf');
 
-        // Logout Route
-        Route::post('/logout', 'Auth\LogoutController@logout')->name('admin.logout');
+        Route::get('tanggapan/cetak/{id}', 'AdminController@tanggapan_pdf');
     });
 
 // Masyarakat
@@ -32,11 +34,10 @@ Route::prefix('user')
     ->middleware(['auth', 'MasyarakatMiddleware'])
     ->group(function () {
         Route::get('/', 'MasyarakatController@index')->name('masyarakat-dashboard');
-        Route::resource('pengaduan', 'MasyarakatController');
-        Route::get('pengaduan', 'MasyarakatController@lihat');
 
-        // Logout Route
-        Route::post('/logout', 'Auth\LogoutController@logout')->name('masyarakat.logout');
+        Route::resource('pengaduan', 'MasyarakatController');
+
+        Route::get('pengaduan', 'MasyarakatController@lihat');
     });
 
 require __DIR__ . '/auth.php';
